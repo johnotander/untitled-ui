@@ -5,8 +5,8 @@ export default Ember.Component.extend({
   layout,
   tagName: '',
     
-  label: null,
   type: 'ui-input',
+  labelType: 'ui-label',
   
   generatedInputId: Ember.computed(function() {
     return `${Ember.guidFor(this)}__input`;

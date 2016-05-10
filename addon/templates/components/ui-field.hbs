@@ -1,2 +1,3 @@
-<label id={{generatedLabelId}} for={{generatedInputId}}>{{label}}</label>
-{{yield (hash input=(component type id=generatedInputId aria-labelledby=generatedLabelId))}}
+{{yield (hash
+  input=(component type id=generatedInputId aria-labelledby=generatedLabelId)
+  label=(component labelType id=generatedLabelId))}}
